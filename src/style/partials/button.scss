@@ -1,0 +1,66 @@
+ .button {
+    margin-top: 30px;
+}
+
+.btn {
+    display: block;
+    font-size: $button-header;
+    line-height: normal;
+    background-color: $red;
+    color: $white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    max-width: 280px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid $red;
+
+    &:hover {
+        border: 1px solid $red;
+        background-color: transparent;
+        color: $red;
+    }
+}
+
+.btn--main {
+    font-size: $button-header;
+    line-height: 16px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    max-width: 280px;
+}
+
+.btn--outline {
+    border: 1px solid $red;
+    font-size: $button-header;
+    color: $red;
+    background-color: transparent;
+    max-width: 280px;
+
+    &:hover {
+        background-color: $red;
+        opacity: 1;
+        color: $white;
+    }
+}
+
+@media (min-width: $md) {
+    .btn--main {
+        font-family: PF BeauSans Pro;
+        max-width: 370px;
+        font-size: $button-main;
+    }
+
+    .btn--outline {
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 370px;
+    }
+
+    .btn--product {
+        width: 222px;
+        margin: 0;
+    }
+}

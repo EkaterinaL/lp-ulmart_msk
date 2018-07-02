@@ -1,0 +1,81 @@
+.price {
+    background: url('https://fast.ulmart.ru/ns/verstka/opening_regions/msk/img/bg__price-mob2.png') no-repeat 50% 10% $gray;
+    min-height: 395px;
+}
+
+.price__page {
+    padding-top: 211px;
+}
+
+.price__title {
+    display: none;
+}
+
+.price__text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #404040;
+    text-align: left;
+}
+
+
+@media (min-width: $md) {
+    .price {
+        background: url('https://fast.ulmart.ru/ns/verstka/opening_regions/msk/img/bg__price-tab.png') 50% 33% no-repeat $gray;
+    }
+
+    .price__page {
+        padding-top: 54px;
+        padding-bottom: 60px;
+        padding-left: 236px;
+    }
+
+    .price__title {
+        display: block;
+        color: $black; 
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 70px;
+        padding-bottom: 55px;
+
+        & span {
+            font-size: 57px;
+        }
+    }
+
+    .price__text {
+        font-size: 22px;
+        line-height: 24px;
+        text-align: left;
+    }
+}
+
+@media (min-width: $lg) {
+    .price {
+        background: url('https://fast.ulmart.ru/ns/verstka/opening_regions/msk/img/bg__price.png') no-repeat 50% 36% $gray;
+    }
+
+
+    .price__page {
+        padding-top: 142px;
+        padding-bottom: 76px;
+        padding-left: 450px;
+    }
+
+    .price__title {
+        font-size: 70px;
+        font-weight: 300;
+        text-transform: uppercase;
+
+        & span {
+            font-size: 100px;
+            font-weight: bold;
+        }
+    }
+
+    .price__text {
+        padding-top: 15px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+}

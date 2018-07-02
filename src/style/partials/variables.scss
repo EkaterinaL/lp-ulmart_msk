@@ -1,0 +1,49 @@
+
+/*Media new*/
+$lg:1200px;
+$md:768px;
+$xs:320px;
+
+
+$mobile-wrap: 280px;
+$tablet-wrap: 726px;
+$desktop-wrap: 1170px;
+
+
+/*Color*/
+$white: #ffffff; 
+$black: #000000;
+$gray: #f0efef;
+$gray-button: #999999;
+$red: #e50329;
+$sale: #d02759;
+$blue: #6feff3;
+
+
+/*Fonts Text Desktop*/
+$title: 32px; // Заголовок h1
+$subtitle: 22px; // Заголовок h2
+$subtitle: 18px; // Заголовок h3
+$text: 16px; // основной текст
+
+/*Fonts Text Tablet*/
+$subtitle-tablet: 22px; // Заголовок h3
+
+/*Fonts Text Mobile*/
+$title-mobile: 24px; // Заголовок h1
+$subtitle-mobile: 18px; // Заголовок h2
+$subtitle-h3-mobile: 16px; // Заголовок h3
+$text-mobile: 14px; // основной текст
+
+
+/*Fonts Button*/
+$button-header: 14px; // стандартная кнопка
+$button-main: 22px; // Главная кнопка
+
+/*Fonts Goods four items*/
+$goods-price-old: 12px; // основной текст
+$goods-price-new: 18px; // основной текст
+
+/*Fonts Goods three items*/
+$three-price-old: 18px; // основной текст
+$three-price-new: 36px; // основной текст

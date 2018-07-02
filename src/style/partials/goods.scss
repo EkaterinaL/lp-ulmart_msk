@@ -1,0 +1,153 @@
+.goods {
+    background-color: $gray;
+    padding: 30px 0px;
+}
+
+.goods__item {
+    position: relative;
+    background-color: $white;
+    padding: 30px 20px;
+    background-color:$white;
+    margin-bottom: 20px;
+    text-align: center;
+
+    &:hover {
+        box-shadow: 4px 8px 20px #cccccc;
+    }
+}
+
+
+.goods__sale {
+    background-color: $sale;
+    font-size: $text-mobile;
+    text-align: center;
+    color: $white;
+    padding: 5px;
+    width: 100px;
+}
+
+.goods__sale {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.goods__code {
+    background-color: #fee600;
+    color: $black;
+    width: 156px;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.goods__name {
+    padding-top: 10px;
+    color: $black;
+    font-size: $text-mobile;
+    text-align: left;
+}
+
+.goods__price {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 45px;
+    padding-bottom: 15px;
+}
+
+.goods__old-price {
+    padding-right: 10px;
+    text-decoration: line-through;
+    font-size: $goods-price-old;
+    color: #39393d;
+}
+
+.goods__new-price {
+    font-size: $goods-price-new;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+ .goods__three-old-price {
+       font-size: $goods-price-old;
+       line-height: 20px;
+       text-decoration: line-through;
+       padding-right: 10px;
+       color: #39393d
+    }
+
+    .goods__three-new-price {
+        font-size: $goods-price-new;
+        line-height: 24px;
+        font-weight: bold;
+    }
+
+ 
+@media (min-width: $md) {
+    .goods__item--three {
+       padding: 30px 40px; 
+    }
+
+    .goods__name {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    // Для 3 товаров в ряду
+    .goods__three-old-price {
+       font-size: 14px;
+       line-height: 20px;
+       text-decoration: line-through;
+       padding-right: 10px;
+       color: #39393d
+    }
+
+    .goods__three-new-price {
+        font-size: 22px;
+        line-height: 24px;
+        font-weight: bold;
+    }
+
+    .goods__sale {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    .goods__code {
+        font-size: 12px;
+        width: 140px;
+    }
+
+    .goods__name--f {
+        padding-top: 34px;
+    }
+}
+
+@media (min-width: $lg) {
+    .goods__name{
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    // Для 3 товаров в ряду
+    .goods__three-old-price {
+       font-size: $three-price-old;
+    }
+
+    .goods__three-new-price {
+        font-size: $three-price-new;
+        line-height: 24px;
+    }
+
+    .goods__sale, .goods__code {
+        font-size: 14px;
+    }
+
+    .goods__name--p {
+        padding-top: 37px;
+    }
+
+}
+
+

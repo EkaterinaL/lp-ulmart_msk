@@ -1,0 +1,58 @@
+.promo {
+    background: url('https://fast.ulmart.ru/ns/verstka/opening_regions/msk/img/banner-top-mob.png') no-repeat  top center  $blue;
+    min-height: 190px;
+}
+
+
+.promo__title {
+    display: none;
+}
+
+
+@media (min-width: $md) {
+    .promo {
+        background: url('https://fast.ulmart.ru/ns/verstka/opening_regions/msk/img/banner-top-tab.png') no-repeat top center  $blue;
+    }
+
+    .promo__page {
+        padding-top: 82px;
+        padding-left: 250px;
+        padding-bottom: 104px;
+    }
+
+    .promo__title {
+        display: block;
+        font-size: 54px;
+        line-height: 70px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: $black;
+
+        & span {
+            font-size: 64px;
+            font-weight: bold;
+        }
+   }
+}
+
+
+@media (min-width: $lg) {
+     .promo {
+        background: url('https://fast.ulmart.ru/ns/verstka/opening_regions/msk/img/banner-top.png') no-repeat top center  $blue;
+    }
+
+    .promo__page {
+        padding-left: 388px;
+        padding-top: 130px;
+        padding-bottom: 188px;
+    }
+
+	.promo__title {
+        font-size: 70px;
+        line-height: 123px;
+
+        & span {
+            font-size: 110px;
+        }
+    }
+}

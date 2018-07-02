@@ -1,0 +1,147 @@
+.gift {
+    background: url('https://fast.ulmart.ru/ns/verstka/opening_regions/msk/img/bg__balloons-mob2.png') no-repeat 50% 12% $blue;
+    padding-bottom: 40px;
+}
+
+.gift__page {
+    padding-top: 180px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+
+}
+
+.gift__title {
+    display: none;
+}
+
+.gift__brand-mob {
+    margin: 0 auto;
+    display: block;
+    width: 320px;
+}
+
+.gift__text {
+    padding-top: 40px;
+    color: $black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 auto;
+
+    & span {
+        padding-top: 50px;
+    }
+}
+
+.gift__img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift__brands {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    .gift__brand {
+        width: 217px;
+        padding-top: 20px;
+    }
+
+.gift__img--tab, .gift__img--desktop {
+    display: none;
+}
+
+@media (min-width: $md) {
+    .gift {
+        background: url('https://fast.ulmart.ru/ns/verstka/opening_regions/msk/img/bg__balloons-tab.png') no-repeat 33% 12% $blue;
+        padding-bottom: 80px;
+    }
+
+    .gift__page {
+        padding-top: 92px;
+        padding-left: 287px;
+        padding-right: 0;
+    }
+
+	.gift__title {
+        display: block;
+        text-align: left;
+        text-transform: uppercase;
+        color: $black;
+        font-size: 40px;
+        line-height: 65px;
+        font-weight: 300;
+        text-align: left; 
+
+        & span {
+            font-size: 64px;
+            font-weight: bold;
+        }
+    }
+
+    .gift__text {
+        font-size: 18px;
+        line-height: 28px;
+        text-align: left;
+        width: 100%;
+        padding-right: 19px;
+    }
+
+    .gift__brands {
+        flex-direction: row;
+    }
+
+    .gift__img--tab {
+        display: block;
+    }
+
+    .gift__img--mob, .gift__img--desktop {
+        display: none;
+    }
+}
+
+@media (min-width: $lg) {
+    .gift {
+        background: url('https://fast.ulmart.ru/ns/verstka/opening_regions/msk/img/bg__balloons.png') no-repeat 40% 10% $blue;
+        padding-bottom: 80px;
+    }
+
+    .gift__page {
+        padding-left: 404px;
+        padding-bottom: 40px;
+    }
+
+    .gift__title {
+        font-size: 70px;
+        line-height: 123px;
+
+        & span {
+            font-size: 100px;
+            font-weight: bold;
+        }
+    }
+
+    .gift__text {
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: bold;
+    }
+
+    .gift__brands {
+        margin: 0 auto;
+        width: 670px;
+    }
+
+    .gift__img--desktop {
+        display: block;
+    }
+
+    .gift__img--mob, .gift__img--tab {
+        display: none;
+    }
+}
